@@ -1,4 +1,3 @@
-
 package com.katruk.model.entity;
 
 import javax.xml.bind.annotation.XmlEnum;
@@ -7,7 +6,7 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for Port.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
  * <p>
  * <pre>
@@ -19,21 +18,20 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/restriction>
  * &lt;/simpleType>
  * </pre>
- * 
  */
 @XmlType(name = "Port", namespace = "http://katruk.com.task3/devices")
 @XmlEnum
 public enum Port {
-    COM,
-    USB,
-    LPT;
+  COM,
+  USB,
+  LPT;
 
-    public String value() {
-        return name();
-    }
+  public String value() {
+    return name();
+  }
 
-    public static Port fromValue(String v) {
-        return valueOf(v);
-    }
+  public static Port fromValue(String v) {
+    return valueOf(v);
+  }
 
 }

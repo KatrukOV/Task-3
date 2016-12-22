@@ -1,5 +1,6 @@
 <?xml version="1.0" ?>
-<Devices xmlns="http://katruk.com.task3a/devices" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://katruk.com.task3a/devices MyXML.xsd">
+<Devices xmlns="http://katruk.com.task3a/devices" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+		 xs:schemaLocation="http://katruk.com.task3a/devices MyXML.xsd">
 	<Device id="1">
 		<Name>iPod</Name>
 		<Origin>USA</Origin>
